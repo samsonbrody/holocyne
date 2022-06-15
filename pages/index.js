@@ -8,7 +8,7 @@ import { Parallax, ParallaxBanner } from "react-scroll-parallax";
 export default function Home() {
   return (
     <div className="flex items-center justify-center flex-col">
-      <Navbar />
+      {/* <Navbar /> */}
 
       <div className="bg-white w-screen flex justify-center">
         <div className="w-full max-w-[55rem] overflow-visible shadow-sm">
