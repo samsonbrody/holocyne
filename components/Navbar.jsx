@@ -6,7 +6,7 @@ function Navbar() {
   const router = useRouter();
   return (
     <>
-      <div className="w-full font-Smooch bg-white h-24 sm:h-36 md:h-40 flex sm:flex-col items-center border-b justify-between sm:justify-center">
+      <div className="w-full font-Smooch bg-gray-200 h-24 sm:h-36 md:h-40 flex sm:flex-col items-center border-b justify-between sm:justify-center">
         <h1
           onClick={() => router.push("/")}
           className="text-3xl sm:text-4xl md:text-5xl sm:ml-0 ml-6 cursor-pointer"
