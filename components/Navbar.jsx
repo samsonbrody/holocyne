@@ -42,14 +42,22 @@ function Navbar() {
       <div
         className={
           isOpen
-            ? `flex flex-col absolute sm:hidden items-center shadow-2xl py-6 gap-y-6 justify-center top-[5.8rem] w-full bg-slate-900`
+            ? `flex flex-col absolute sm:hidden items-center shadow-2xl justify-center top-[5.8rem] w-full bg-black`
             : `hidden`
         }
       >
-        <h2 className="text-gray-50 cursor-pointer font-Lato">Home</h2>
-        <h2 className="text-gray-50 cursor-pointer font-Lato">Portfolio</h2>
-        <h2 className="text-gray-50 cursor-pointer font-Lato">About</h2>
-        <h2 className="text-gray-50 cursor-pointer font-Lato">Contact</h2>
+        <h2 className="text-gray-50 cursor-pointer font-Lato hover:bg-slate-600 w-full flex py-3 justify-center">
+          Home
+        </h2>
+        <h2 className="text-gray-50 cursor-pointer font-Lato hover:bg-slate-600 w-full py-3  flex justify-center">
+          Portfolio
+        </h2>
+        <h2 className="text-gray-50 cursor-pointer font-Lato hover:bg-slate-600 w-full py-3  flex justify-center">
+          About
+        </h2>
+        <h2 className="text-gray-50 cursor-pointer font-Lato hover:bg-slate-600 w-full py-3  flex justify-center">
+          Contact
+        </h2>
       </div>
     </>
   );
